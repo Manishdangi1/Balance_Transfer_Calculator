@@ -3,6 +3,7 @@ This tool helps users compare their current loan EMI with a potential lower-inte
 
 
 Tests for which our app is optimized for .
+
 1.Input Validation Test
 Ensures inputs (loan amount, interest rates, tenure, fee) are valid numbers and within acceptable ranges.
 
