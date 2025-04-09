@@ -1,7 +1,9 @@
+
+import './App.css'
 import React from "react";
-import ReactDOM from "react-dom/client";
+// import ReactDOM from "react-dom/client";
 // import App from "./App";
-import BalanceTransferCalculator from "./components/BalanceTransferCalculator";
+import BalanceTransferCalculator from '../components/BalanctTransferCalculator';
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
@@ -10,7 +12,5 @@ function App() {
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
 
-root.render(<App />)
-export default App;
+export default App
